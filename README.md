@@ -2,7 +2,7 @@
 
 Collection of small experiments running on Deno Deploy.
 
-Notes: These scripts run on the Deno Deploy playground, but haven't typechecked to make sure they run with local Deno.
+Notes: These scripts run on the Deno Deploy playground, but haven't been typechecked to make sure they run with local Deno.
 
 ## Table of Contents
 
