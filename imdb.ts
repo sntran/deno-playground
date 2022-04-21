@@ -13,7 +13,7 @@ await serve(router(
 //#endregion
 
 //#region Route Handlers
-async function api(req: Request): Response {
+async function api(req: Request): Promise<Response> {
   const { searchParams } = new URL(req.url);
   const query = searchParams.get("q");
 
